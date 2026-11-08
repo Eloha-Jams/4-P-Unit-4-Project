@@ -10,7 +10,7 @@ Select ONE Additional Feature to Add
 [ no ] Feature 2 - Change the <li> markers
 [ no ] Feature 3 - Change the Favicon
 [ yes ] Feature 4 - Use Google Font or Uploaded Font
-[ no ] Feature 5 - Change the Cursor
+[ yes ] Feature 5 - Change the Cursor
 -->
 
 <!DOCTYPE html>
@@ -27,7 +27,7 @@ Select ONE Additional Feature to Add
 
   <style>
 body{
-  background-color: rgb(201, 24, 44);
+  background-color: rgb(120, 40, 50);
   background-image: url(https://template.canva.com/EAELrwHcitc/1/0/1600w-6qZKQr9TD1M.jpg);
   background-blend-mode: overlay;
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎄</text></svg>") 16 0,auto; /*!emojicursor.app*/
@@ -41,8 +41,8 @@ h2{
   font-family: "Berkshire Swash", serif;
 }
 table, th, td {
-  border: 1px solid rgb(137, 177, 83);
-  color:rgb(106, 153, 78);
+  border: 1px solid rgb(167, 201, 83);
+  color:rgb(137, 177, 83);
     font-family: "Henny Penny", system-ui;
 
 }
@@ -52,13 +52,22 @@ h3{
 }
 p{
   font-family: "Henny Penny", system-ui;
-  color:rgb(106, 153, 78);
+  color:rgb(137, 177, 83);
+  display:inline-block;
+  width:20%;
+  margin:5% auto;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding:1em;
+  line-height:1.5em;
+  background:rgb(181, 28, 49)
 }
 
 hr {
   border: none;
   height: 2px;
-  background-color: rgb(137, 177, 83);
+  background-color: rgb(167, 201, 83);
+
+  
 }
 
   </style>
@@ -72,52 +81,63 @@ hr {
 <table>
   <thead>
     <tr>
-      <th>It's the Most<br> Wonderfull Time<br> to Decorate!</th>
-      <th>My Favorite<br> Things to Bake!</th>
-      <th>Holly Jolly <br>Christmas Music!</th>
-      <th>Winter Wonderfull<br> Places to go!</th>
+      <th><a href="#Decor">It's the Most<br> Wonderfull Time<br> to Decorate!</a></th>
+      <th><a href="#Bake">My Favorite<br> Things to Bake!</a></th>
+      <th><a href="#Music">Holly Jolly <br>Christmas Music!</a></th>
+      <th><a href="#Places">Winter Wonderfull<br> Places to go!</a></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>A Theme to Remember!</td>
+      <td>Recipes to last you <br>all Season!</td>
+      <td> To Listen or Not to <br>Listen </td>
+      <td>The Classics</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Christmas Trees and<br> The different types.</td>
+      <td>Fun for the Whole Family!</td>
+      <td>Deck the Concert Halls</td>
+      <td>The Best Plays to see this <br>Christmas</td>
     </tr>
-
+     <tr>
+      <td>Ornaments and Fun <br>Decor.</td>
+      <td>Add Some Christmas <br>Magic!</td>
+      <td>Playlists for the All!</td>
+      <td>Holiday Specials!</td>
+    </tr>
+     <tr>
+      <td>There's Always a Time<br> for Christmas!</td>
+      <td>Best Bakeries Around!</td>
+      <td>My Favorite Artists!</td>
+      <td>Last Minute <br>Shopping Ideas.</td>
+    </tr>
   </tbody>
 </table>
 
 
 <br><br>
-  <h3>It's the Most Wonderfull Time to Decorate!</h3>
+  <h3 id="Decor">It's the Most Wonderfull Time to Decorate!</h3>
   <hr>
   <p>
 
   </p>
   <br><br>
 
-  <h3>My Favorite Things to Bake!</h3>
+  <h3 id="Bake">My Favorite Things to Bake!</h3>
   <hr>
   <p>About Content Element #2
 
   </p>
   <br><br>
 
-  <h3>Holly Jolly Christmas Music!</h3>
+  <h3 id="Music">Holly Jolly Christmas Music!</h3>
   <hr>
   <p>About Content Element #3
 
   </p>
   <br><br>
-   <h3>Winter Wonderfull Places to go!</h3>
+   <h3 id="Places">Winter Wonderfull Places to go!</h3>
   <hr>
   <p>About Content Element #4
 
